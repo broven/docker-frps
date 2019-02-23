@@ -2,7 +2,7 @@
 
 - 将frps.ini 放到/conf下
 ```
-docker run --name=frps --network=host -v=/conf:/conf -it --restart=always metajs/frps
+docker run --name=frps --network=host -v=/conf:/conf -d --restart=always metajs/frps
 ```
 
 ## other
