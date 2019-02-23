@@ -1,0 +1,11 @@
+version: 2
+
+jobs:
+  "test if frp has release in last 1 days":
+    steps:
+      - checkout
+      - run: ./checkFRP.sh
+  build:
+    steps:
+      - run:
+          command: curl --data build=true -X POST https://registry.hub.docker.com/u/svendowideit/testhook/trigger/be579c82-7c0e-11e4-81c4-0242ac110020/
