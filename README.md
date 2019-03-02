@@ -1,3 +1,8 @@
+# frps docker
+
+![MicroBadger Size (tag)](https://img.shields.io/microbadger/image-size/metajs/frps/latest.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/metajs/frps.svg)
+
 # usage
 
 - 将frps.ini 放到/conf下
